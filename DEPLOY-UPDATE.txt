@@ -1,0 +1,19 @@
+FILE SUDAH DIPERBAIKI
+
+Perubahan:
+- Link Dresscode dan Timeline tetap ada di halaman utama.
+- Syntax error pada sw.js diperbaiki.
+- Cache PWA dinaikkan ke versi v5 agar cache lama dihapus.
+- Halaman utama, Timeline, dan Dresscode dimasukkan ke app shell.
+- Navigasi memakai network-first agar versi website terbaru lebih cepat muncul.
+
+PENTING SAAT DEPLOY:
+Upload ISI folder ini sebagai root website/repository, bukan folder pembungkusnya.
+Pastikan index.html berada langsung di root deployment.
+
+
+FINAL v7 update (2026-08-30):
+- Service Worker cache bumped from v6 to v7.
+- Removed duplicate service-worker.js; site registers sw.js.
+- dresscode.html and timeline.html remain in the app shell cache.
+- Upload the complete pppk/ folder when deploying.
